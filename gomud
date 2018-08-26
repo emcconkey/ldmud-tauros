@@ -1,4 +1,6 @@
 #!/bin/bash
 
 umask 002
-/mud/game/bin/ldmud --max-mapping 50000 --max-mapping-keys 50000 5005 5000 5110 5025 4999 4998 4997 4996 4995 --swap-file TAUROS_SWAP --debug-file tauros.debug.log
+while true; do
+	/mud/game/bin/ldmud --max-mapping 50000 --max-mapping-keys 50000 5005 5000 5110 5025 4999 4998 4997 4996 4995 --swap-file TAUROS_SWAP --debug-file tauros.debug.log
+done
