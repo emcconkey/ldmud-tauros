@@ -1,3 +1,3 @@
 #!/bin/bash
-docker build -t emcconkey/ldmud-tauros .
+docker build -t emcconkey/ldmud-tauros-test .
 
